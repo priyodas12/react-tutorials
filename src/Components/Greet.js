@@ -3,7 +3,7 @@ import React from 'react'
 const Greet = (props) => {
   return (
     <>
-      <h1>Hello Priyo</h1>
+      <h1>Functional Component</h1>
     </>
   )
 }
