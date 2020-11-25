@@ -8,7 +8,7 @@ const JSXDemo = (props) => {
   // </div>
   // )
 
-  return React.createElement('div', null, React.createElement('h1', null, 'hello jsx'));
+  return React.createElement('div', { id: "jsx", className: 'jsx-component' }, React.createElement('h1', null, 'hello jsx'));
 }
 
 export default JSXDemo;
