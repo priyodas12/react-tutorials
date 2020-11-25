@@ -30,7 +30,8 @@ class ShoppingCart extends Component {
   IncrementHandler = () => {
     this.setState({
       count: this.state.count + 1
-    });
+    }, () => { console.log("callback value", this.state.count) });
+    console.log(this.state.count)
   }
 
   DecrementHandler = () => {

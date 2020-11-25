@@ -5,6 +5,7 @@ import Welcome from "./Components/Welcome"
 import JSXDemo from "./Components/JSXDemo"
 import Message from "./Components/Message"
 import ShoppingCart from "./Components/ShoppingCart"
+import Destructure from "./Components/Destructure"
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Greet name="c" val="99">C</Greet>
       <Welcome name="well"></Welcome>
       <JSXDemo></JSXDemo>
-      <Message></Message>*/}
-      <ShoppingCart></ShoppingCart>
+      <Message></Message>
+      <ShoppingCart></ShoppingCart>*/}
+      <Destructure name="priyo" surname="das"></Destructure>
     </div>
   );
 }
