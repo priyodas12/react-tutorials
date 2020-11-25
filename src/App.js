@@ -4,6 +4,7 @@ import Greet from "./Components/Greet"
 import Welcome from "./Components/Welcome"
 import JSXDemo from "./Components/JSXDemo"
 import Message from "./Components/Message"
+import ShoppingCart from "./Components/ShoppingCart"
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Greet name="b" val="98">B</Greet>
       <Greet name="c" val="99">C</Greet>
       <Welcome name="well"></Welcome>
-      <JSXDemo></JSXDemo>*/}
-      <Message></Message>
+      <JSXDemo></JSXDemo>
+      <Message></Message>*/}
+      <ShoppingCart></ShoppingCart>
     </div>
   );
 }
