@@ -30,7 +30,7 @@ export default class Welcome extends Component {
   render() {
     return (
       <>
-        <h1>Class Component!</h1>
+        <h1>Class Component! {this.props.name}</h1>
       </>
     )
   }

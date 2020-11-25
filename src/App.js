@@ -7,8 +7,10 @@ import JSXDemo from "./Components/JSXDemo"
 function App() {
   return (
     <div className="App">
-      {/*<Greet></Greet>
-      <Welcome></Welcome>*/}
+      <Greet name="a" val="97">A</Greet>
+      <Greet name="b" val="98">B</Greet>
+      <Greet name="c" val="99">C</Greet>
+      <Welcome name="well"></Welcome>
       <JSXDemo></JSXDemo>
     </div>
   );
