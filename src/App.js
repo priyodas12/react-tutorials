@@ -6,6 +6,7 @@ import JSXDemo from "./Components/JSXDemo"
 import Message from "./Components/Message"
 import ShoppingCart from "./Components/ShoppingCart"
 import Destructure from "./Components/Destructure"
+import DestructureClass from "./Components/DestructureClass"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Message></Message>
       <ShoppingCart></ShoppingCart>*/}
       <Destructure name="priyo" surname="das"></Destructure>
+      <DestructureClass name="priya" surname="das"></DestructureClass>
     </div>
   );
 }
